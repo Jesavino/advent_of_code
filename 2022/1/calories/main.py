@@ -12,13 +12,6 @@ def main():
                 elf_number += 1
                 sum = 0
 
-    max = 0
-    max_elf = 0
-    for elf, value in running_sum.items():
-        if value > max:
-            max = value
-            max_elf = elf
-
     values = list(running_sum.values())
     values.sort(reverse=True)
 
